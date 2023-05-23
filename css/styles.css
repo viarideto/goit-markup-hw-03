@@ -47,6 +47,8 @@ img {
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .link {
@@ -88,6 +90,7 @@ img {
   text-transform: uppercase;
   color: var(--logo-first-color);
   margin-right: 76px;
+  padding: 24px 0;
 }
 .top-logo-part {
   color: var(--logo-top-color);
@@ -96,8 +99,6 @@ img {
 .top-list {
   display: flex;
   gap: 40px;
-  padding: 0;
-  margin: 0;
 }
 
 .top-link {
@@ -116,6 +117,8 @@ img {
 .top-address {
   font-style: normal;
   margin-left: auto;
+  display: flex;
+  align-items: center;
 }
 
 .top-address-list {
@@ -129,6 +132,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--link-contacts-color);
+  padding: 24px 0;
 }
 
 .top-address-link:hover,
