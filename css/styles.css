@@ -96,6 +96,8 @@ img {
 .top-list {
   display: flex;
   gap: 40px;
+  padding: 0;
+  margin: 0;
 }
 
 .top-link {
@@ -119,6 +121,7 @@ img {
 .top-address-list {
   display: flex;
   gap: 40px;
+  padding: 0;
 }
 
 .top-address-link {
@@ -204,12 +207,13 @@ img {
   line-height: 1.2; /* 24px/20 */
   letter-spacing: 0.02em;
   color: var(--title-color);
-  margin-bottom: 8px;
+  margin: 0 0 8px;
 }
 .about-item-text {
   line-height: 1.5; /* 24px/16 */
   letter-spacing: 0.02em;
   color: var(--text-color);
+  margin: 0;
 }
 
 /* ----Do---- */
@@ -326,6 +330,7 @@ img {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+  padding: 0;
 }
 
 .portfolio-filter-button {
